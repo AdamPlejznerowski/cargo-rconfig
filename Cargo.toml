@@ -1,0 +1,19 @@
+[package]
+name = "cargo-rconfig"
+version = "0.1.0"
+edition = "2024"
+authors = ["Adam Plejznerowski <adam.plejznerowski@gmail.com>"]
+description = "Cargo subcommand extending Rust's build system with declarative environment and flag management. (WIP)"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/AdamPlejznerowski/cargo-rconfig"
+
+[lib]
+name = "rconfig"
+path = "src/lib.rs"
+
+[[bin]]
+name = "cargo-rconfig"
+path = "src/main.rs"
+
+[dependencies]
